@@ -7,6 +7,7 @@ app = Flask(__name__)
 def home():
     return "CRM de leads funcionando!"
 
+
 @app.route("/sobre")
 def sobre():
     return "Sobre funcionando"
